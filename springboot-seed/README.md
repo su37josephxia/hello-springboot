@@ -4,7 +4,16 @@
 - springboot 的完整启动过程
 - maven插件直接推送docker部署 （待）
 
-## 项目列表
-- springboot-seed
-- springcloud-config
-- rocketmq 
+
+
+# Develop
+- 正确安装Maven
+``` bash
+mvn spring-boot:run
+```
+- http://localhost:8080
+
+# 清理
+``` bash
+mvn clean
+```
