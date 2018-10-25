@@ -8,3 +8,8 @@
 - springboot-seed
 - springcloud-config
 - rocketmq 
+
+### 创建项目
+``` bash
+mvn archetype:generate -DgroupId=com.xiaran.demo -DartifactId=rocket- -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+``` 

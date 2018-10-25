@@ -4,8 +4,6 @@
 - springboot 的完整启动过程
 - maven插件直接推送docker部署 （待）
 
-
-
 # Develop
 - 正确安装Maven
 ``` bash

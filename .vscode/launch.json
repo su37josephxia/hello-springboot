@@ -6,6 +6,49 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Consumer",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.xiaran.demo.Consumer",
+            "args": "",
+            "projectName": "rocket-mq"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SyncProducer",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.xiaran.demo.SyncProducer",
+            "args": "",
+            "projectName": "rocket-mq"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.xiaran.demo.App",
+            "args": "",
+            "projectName": "rocket-mq"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SyncProducer",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "SyncProducer",
+            "args": ""
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch)",
             "request": "launch",
             "cwd": "${workspaceFolder}",
