@@ -1,0 +1,109 @@
+2018-10-26 20:29:04 INFO main - rocketmqHome=/opt/rocketmq-4.3.0
+2018-10-26 20:29:04 INFO main - kvConfigPath=/opt/namesrv/kvConfig.json
+2018-10-26 20:29:04 INFO main - configStorePath=/opt/namesrv/namesrv.properties
+2018-10-26 20:29:04 INFO main - productEnvName=center
+2018-10-26 20:29:04 INFO main - clusterTest=false
+2018-10-26 20:29:04 INFO main - orderMessageEnable=false
+2018-10-26 20:29:04 INFO main - listenPort=9876
+2018-10-26 20:29:04 INFO main - serverWorkerThreads=8
+2018-10-26 20:29:04 INFO main - serverCallbackExecutorThreads=0
+2018-10-26 20:29:04 INFO main - serverSelectorThreads=3
+2018-10-26 20:29:04 INFO main - serverOnewaySemaphoreValue=256
+2018-10-26 20:29:04 INFO main - serverAsyncSemaphoreValue=64
+2018-10-26 20:29:04 INFO main - serverChannelMaxIdleTimeSeconds=120
+2018-10-26 20:29:04 INFO main - serverSocketSndBufSize=65535
+2018-10-26 20:29:04 INFO main - serverSocketRcvBufSize=65535
+2018-10-26 20:29:04 INFO main - serverPooledByteBufAllocatorEnable=true
+2018-10-26 20:29:04 INFO main - useEpollNativeSelector=false
+2018-10-26 20:29:04 INFO main - Server is running in TLS permissive mode
+2018-10-26 20:29:04 INFO main - Tls config file doesn't exist, skip it
+2018-10-26 20:29:04 INFO main - Log the final used tls related configuration
+2018-10-26 20:29:04 INFO main - tls.test.mode.enable = true
+2018-10-26 20:29:04 INFO main - tls.server.need.client.auth = none
+2018-10-26 20:29:04 INFO main - tls.server.keyPath = null
+2018-10-26 20:29:04 INFO main - tls.server.keyPassword = null
+2018-10-26 20:29:04 INFO main - tls.server.certPath = null
+2018-10-26 20:29:04 INFO main - tls.server.authClient = false
+2018-10-26 20:29:04 INFO main - tls.server.trustCertPath = null
+2018-10-26 20:29:04 INFO main - tls.client.keyPath = null
+2018-10-26 20:29:04 INFO main - tls.client.keyPassword = null
+2018-10-26 20:29:04 INFO main - tls.client.certPath = null
+2018-10-26 20:29:04 INFO main - tls.client.authServer = false
+2018-10-26 20:29:04 INFO main - tls.client.trustCertPath = null
+2018-10-26 20:29:05 INFO main - Using OpenSSL provider
+2018-10-26 20:29:06 INFO main - SSLContext created for server
+2018-10-26 20:29:06 INFO NettyEventExecutor - NettyEventExecutor service started
+2018-10-26 20:29:06 INFO main - The Name Server boot success. serializeType=JSON
+2018-10-26 20:29:06 INFO FileWatchService - FileWatchService service started
+2018-10-26 20:29:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.21.0.3:55164
+2018-10-26 20:29:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.21.0.3:55164]
+2018-10-26 20:29:31 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.21.0.3:55164]
+2018-10-26 20:29:31 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.21.0.3:55164]
+2018-10-26 20:30:00 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.21.0.3:55166
+2018-10-26 20:30:00 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.21.0.3:55166]
+2018-10-26 20:30:00 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.21.0.3:55166]
+2018-10-26 20:30:00 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.21.0.3:55166]
+2018-10-26 20:30:06 INFO NSScheduledThread1 - --------------------------------------------------------
+2018-10-26 20:30:06 INFO NSScheduledThread1 - configTable SIZE: 0
+2018-10-26 20:30:29 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.21.0.3:55168
+2018-10-26 20:30:29 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.21.0.3:55168]
+2018-10-26 20:30:29 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.21.0.3:55168]
+2018-10-26 20:30:29 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.21.0.3:55168]
+2018-10-26 20:30:59 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.21.0.3:55170
+2018-10-26 20:30:59 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.21.0.3:55170]
+2018-10-26 20:30:59 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.21.0.3:55170]
+2018-10-26 20:30:59 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.21.0.3:55170]
+2018-10-26 20:31:29 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.21.0.3:55172
+2018-10-26 20:31:29 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.21.0.3:55172]
+2018-10-26 20:31:29 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.21.0.3:55172]
+2018-10-26 20:31:29 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.21.0.3:55172]
+2018-10-26 20:31:59 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.21.0.3:55174
+2018-10-26 20:31:59 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.21.0.3:55174]
+2018-10-26 20:31:59 WARN NettyServerCodecThread_6 - NETTY SERVER PIPELINE: exceptionCaught 172.21.0.3:55174
+2018-10-26 20:31:59 WARN NettyServerCodecThread_6 - NETTY SERVER PIPELINE: exceptionCaught exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method) ~[na:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39) ~[na:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[na:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[na:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[na:1.8.0_181]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:221) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:275) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:652) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-26 20:31:59 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.21.0.3:55174]
+2018-10-26 20:31:59 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.21.0.3:55174]
+2018-10-26 20:31:59 INFO NettyServerNIOSelector_3_3 - closeChannel: close the connection to remote address[172.21.0.3:55174] result: true
+2018-10-26 20:32:29 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.21.0.3:55176
+2018-10-26 20:32:29 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.21.0.3:55176]
+2018-10-26 20:32:29 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.21.0.3:55176]
+2018-10-26 20:32:29 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.21.0.3:55176]
+2018-10-26 20:32:59 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.21.0.3:55178
+2018-10-26 20:32:59 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.21.0.3:55178]
+2018-10-26 20:32:59 WARN NettyServerCodecThread_8 - NETTY SERVER PIPELINE: exceptionCaught 172.21.0.3:55178
+2018-10-26 20:32:59 WARN NettyServerCodecThread_8 - NETTY SERVER PIPELINE: exceptionCaught exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method) ~[na:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39) ~[na:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[na:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[na:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[na:1.8.0_181]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:221) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:275) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:652) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-26 20:32:59 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.21.0.3:55178]
+2018-10-26 20:32:59 INFO NettyServerNIOSelector_3_2 - closeChannel: close the connection to remote address[172.21.0.3:55178] result: true
+2018-10-26 20:32:59 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.21.0.3:55178]

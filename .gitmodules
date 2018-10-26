@@ -1,0 +1,3 @@
+[submodule "rocket-mq/docker-rocketmq"]
+	path = rocket-mq/docker-rocketmq
+	url = https://github.com/foxiswho/docker-rocketmq
